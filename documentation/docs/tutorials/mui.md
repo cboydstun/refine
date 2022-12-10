@@ -419,7 +419,7 @@ import {
     List,
 } from "@pankod/refine-mui";
 
-import { IPost } from "interfaces";
+import { IPost } from "../../interfaces";
 
 const columns: GridColumns<IPost> = [
     { field: "title", headerName: "Title", flex: 1, minWidth: 350 },
